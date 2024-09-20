@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url(./Imagens/freehugs.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* coloca a imagem do background sem repeti-lo */
+
+#cabecalho h1{
+    color: #032345;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+    margin: 0.25em;
+    
+}
+/* formata o titulo do site em coisas como cor, tamanho, fonte, etc */
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+/* alinha o titulo do site ao menu enquanto dá responsividade */
+
+
+#cabecalho nav ol li{
+    margin: 1em;
+    font-size: 1.25em;
+    display: inline-flex;
+    
+}
+/*Regula o tamano do menu e deixa cada botão alinhado um ao outro enquanto dá responsividade*/
+
+
+#cabecalho a{
+    color: #032345;
+    text-decoration: none;
+}
+/* muda a cor do menu e tira a decoração dos links */
+
+
+main nav{
+    font-family: "Lato", sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: light;
+    margin-top: 3em;
+    margin-right: 0.4em;;
+}
+/* modifica a fonte do menu, colocando a mesma do titulo enquanto alinha */
+
+#formulariodeajuda{
+    color: white;
+    background-color: #FFC32C   ;
+    border-radius: 0.3em;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* PRIMEIRO VALOR: DESLOCAMENTO HORIZONTAL, SEGUNDO VALOR: DESLOCAMENTO VERTICAL, TERCEIRO VALOR: É O DESFORQUE, O QUARTO: É O TAMANHO DA SOMBRA E DANI NÃO USA*/
+    font-family: "Lato", sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: light;
+    margin: 1em auto; /*VAI DEIXAR O BLOCO CENTRALIZADO, E É PRECISO DEFINIR A LARGUR PARA UTILIZA-LO*/
+    margin-bottom: 4em;
+    margin-top: 3em;
+    padding: 1em;
+    width:10%;
+}
+
+#formulariodeajuda h2{
+    margin-bottom: 1em;
+}
+
+#formulariodeajuda input{
+    /* vertical-align:middle; */
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+
+
+#enviar{
+    background-color: #032345;
+    border-radius: 1em;
+    color: white;
+    height: 3em;
+    width: 5em;
+}
+
+.mensagemdealerta{
+    align-items: center;
+    background: #FFC32C;
+    display: flex;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: bold;
+    /* margin-top: 0.5em; */
+    /* height: 16vh; */
+    justify-content: center;
+}
+/* centraliza a imagem da mão com o texto e coloca a imagem do background */
+
+.imagemdamao{
+    width: 8em;
+    margin-left: 3em;
+}
+
+/* regular a imgem da mao */
+
+footer{
+    /* align-items: flex-start; */
+    align-content: center;
+    background-color: #032345;
+    color: white;
+    display: inline-flex;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    /* height: 20vh; */
+    justify-content: space-between;
+    padding-top: 1em;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+footer ol{
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer img{
+    width: 5em;
+}
+
+.responsaveltecnico{
+    margin-top: 2.5em;
+}
+
+
+.iconesredes {
+    display: flex;
+    /* height: 3vh; */
+    /* background-color: red; */
+}
+
+.iconesinstituicoes{
+    display: flex;
+    gap: 3em;
+    margin-left: 4.3em;
+    /* padding-bottom: 2em; */
+
+}
+
+.responsaveltecnico{
+    font-size: medium;
+}
+
+.meunome{
+    font-size: x-large;
+}
+
+.linksrecomendados{
+    margin-bottom: 1em;
+}
+
+.osite{
+    margin-bottom: 1em;
+}
